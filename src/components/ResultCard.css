@@ -1,0 +1,43 @@
+.result-card {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.result-card .poster-wrapper img,
+.filter-poster {
+    width: 75px;
+    height: 113px;
+    background-color: #dbdada;
+    margin-right: 15px;
+    display: block;
+    color: transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.result-card .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result-card .info .title {
+    font-size: 1.25rem;
+    columns: var(--primary);
+    font-weight: 600;
+    margin: 0;
+}
+
+.result-card .info .release-date {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--primary);
+    margin: 0;
+}
+
+.result-card .controls button {
+    margin-right: 10px;
+}

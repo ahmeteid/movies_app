@@ -15,7 +15,7 @@ function ResultCard(props) {
     (storedMovie) => storedMovie.imdbID === props.movie.imdbID
   );
 
-  const watchListDsiabled = storedMovieWatchList
+  const watchListDisabled = storedMovieWatchList
     ? true
     : storedMovieWatched
     ? true
@@ -51,7 +51,7 @@ function ResultCard(props) {
                 })
               }
               className="btn"
-              disabled={watchListDsiabled}
+              disabled={watchListDisabled}
             >
               Add To WatchList
             </button>
